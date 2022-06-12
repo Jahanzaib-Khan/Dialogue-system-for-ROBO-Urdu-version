@@ -1,0 +1,50 @@
+{
+    "intents": [
+      {"tag": "greeting",
+       "patterns": ["Hi", "Hey", "Hello", "Good day", "Hey" ],
+       "responses": ["Hi stranger", "how can I help you", "Hello", "Hi"]
+      },
+      {"tag": "goodbye",
+       "patterns": ["Bye","Goodbye", "Ok bye", "Bye Bye"],
+       "responses": ["See you!", "Have a nice day", "Sure Bye", "Later dude", "Peace out", "Sure dear"]
+      },
+      {"tag": "thanks",
+       "patterns": ["Thanks", "That's helpful", "Awesome thanks", "Thanks for helping","thank you"],
+       "responses": [ "Any time!", "My pleasure", "You are welcome"]
+      },
+      {"tag": "Greeting2",
+        "patterns": ["how are you", "i am fine and you","fine and what about you","fine and you","i am good and you"],
+        "responses": [ "very good ", "very well"]
+       },
+      {"tag": "noanswer",
+       "patterns": [],
+       "responses": ["Sorry, can't understand you", "Please give me more info", "Sorry i could not understand what are you saying", "I am still here dude"]
+       },
+       {"tag": "name",
+        "patterns": [ "your name", "are you", "yourself", "You are"],
+        "responses": ["I am Robot My name is Robo", "I am Robot You can call me Robo for short", "I am Robot People call me Robo", "Robo is my name and I am Robot"]
+        },
+        {"tag": "options",
+         "patterns": ["What do you do", "How can you help", "What do you know", "What is your purpose", "How can you help me"],
+         "responses": ["I can tell you about National center of Artificial Intelligence", "I can give you information about National center of Artificial Intelligence"]
+        },
+       
+        {"tag": "NCAI",
+         "patterns": ["NCAI","N C A I", "what do you know National center of Artificial Intelligence","National center of Artificial Intelligence"],
+         "responses": ["The centre is designed to become a leading hub of innovation, scientific research, knowledge transfer of the local economy and training in the area of Artificial Intelligence(AI) and its closely associated fields.NCAI, divided further into two labs with cutting edge technology.First one is Smart City Lab and second one is Neuro Computation Lab"]
+        },       
+        {"tag": "Smart City Lab",
+         "patterns": ["Smart City Lab"],
+         "responses": ["Smart City Lab is to create innovative environment to achieve sustainability and growth, doing research in the field of technology to make better quality of life and bridging between academia and industry through joint ventures", 
+            "Smart City Lab, NCAI is to provide state of the art resources to the researchers working in technologies towards Smart City concept. This laboratory will act as the national hub for academia and industry focusing their energies to incorporate AI based emerging smart technologies in every-day life. The lab provides a chance to transform theoretical knowledge into practical experiences"]
+        }
+        ,        
+        {"tag": "Neuro computation lab",
+         "patterns": ["Neuro computation lab"],
+         "responses": [ "Neuro computation lab is a lab made for Neuro Science and Algorithims based on Neurological studies.", 
+            "Neuro computation lab offers a platform that unites researchers from biomedical, computer, and electronics engineering to offer unique technological solutions for the first time in Pakistan"]
+        }       
+      
+    ]
+  }
+  
